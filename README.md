@@ -4,7 +4,7 @@ A cross-platform interactive shell to try out A64 instructions and watch the cha
 ![screenshot](screenshots/feadback.PNG)  
 
 ## Commands
-With `overview` a quick overview is shown of common registers and the mapped memory.  
+With `overview` a quick overvieuw is shown of common registers and the mapped memory.  
 
 ![screenshot](screenshots/overvieuw.PNG)  
 
