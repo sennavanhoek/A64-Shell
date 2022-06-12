@@ -4,7 +4,7 @@ A cross-platform interactive shell to try out A64 instructions and watch the cha
 ![screenshot](screenshots/feadback.PNG)  
 
 ## Commands
-With `overview` a quick overvieuw is shown of common registers and the mapped memory.  
+With `overview` a quick overview is shown of common registers and the mapped memory.  
 
 ![screenshot](screenshots/overvieuw.PNG)  
 
@@ -12,7 +12,7 @@ You can also directly write to registers and memory by using the `write` command
 
 ![screenshot](screenshots/write.PNG)  
 
-The `info` command gives a short discription of a given instruction.  
+The `info` command gives a short description of a given instruction.  
 
 ![screenshot](screenshots/info.PNG)  
 
@@ -20,3 +20,6 @@ The `info` command gives a short discription of a given instruction.
 The assembling is handled by [Keystone](https://www.keystone-engine.org/) and the emulation by [Unicorn](https://www.unicorn-engine.org/).  
 Information about the instructions has been scraped from the [Armv8-A ISA](https://developer.arm.com/docs/ddi0596/i).  
 To keep execution straightforward a single instruction is written to the base address and is executed. This means branching is out of the question, directives are also not supported.  
+
+
+
